@@ -1,0 +1,7 @@
+pandas
+requests
+transformers
+torch
+matplotlib
+python-dotenv
+tqdm
