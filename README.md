@@ -18,14 +18,19 @@ This project scrapes Reddit posts and comments, runs transformer-based sentiment
 
 ## Project Structure
 
+## Project Structure
+
 - `src/`
-  - `reddit_scraper.py` — Main pipeline
-  - `config.py` — Environment loading and subreddit config
+  - `reddit_scraper.py` — Main sentiment pipeline
+  - `config.py` — Environment loader and subreddit/ticker config
 - `notebooks/`
-  - `exploration.ipynb` — Visual analysis and scoring
+  - `exploration.ipynb` — Visual analysis and signal breakdown
 - `data/`
-  - `sample_output.csv` — Example sentiment data (10–15 rows)
-- `.env` — Reddit API keys (excluded from Git)
+  - `sample_output.csv` — Example daily sentiment data (10–15 rows)
+- `visuals/`
+  - `tier1_signals.png` — Top Tier 1 coin sentiment scores
+  - `meme_signals.png` — Top Meme/Other coin sentiment scores
+- `.env` — Reddit API keys (not committed)
 - `.gitignore`
 - `requirements.txt`
 - `README.md`

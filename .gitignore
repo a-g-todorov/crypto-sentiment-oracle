@@ -13,6 +13,11 @@ venv/
 # System files
 .DS_Store
 
-# Output files
+# Ignore all CSVs
 *.csv
+
+# But keep sample
+!data/sample_output.csv
+
+# Ignore output files
 *.json
