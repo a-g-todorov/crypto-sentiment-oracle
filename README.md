@@ -18,19 +18,17 @@ This project scrapes Reddit posts and comments, runs transformer-based sentiment
 
 ## Project Structure
 
-crypto-sentiment-oracle/
-├── src/
-│ ├── reddit_scraper.py # Main pipeline
-│ └── config.py # Environment loading and subreddit config
-├── notebooks/
-│ └── exploration.ipynb # Visual analysis and scoring
-├── data/
-│ └── overall_coin_sentiment.csv # Sample output
-├── .env # Reddit API keys (not committed)
-├── .gitignore
-├── requirements.txt
-└── README.md
-
+- `src/`
+  - `reddit_scraper.py` — Main pipeline
+  - `config.py` — Environment loading and subreddit config
+- `notebooks/`
+  - `exploration.ipynb` — Visual analysis and scoring
+- `data/`
+  - `sample_output.csv` — Example sentiment data (10–15 rows)
+- `.env` — Reddit API keys (excluded from Git)
+- `.gitignore`
+- `requirements.txt`
+- `README.md`
 
 ## Setup
 
